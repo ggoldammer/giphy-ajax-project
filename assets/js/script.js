@@ -21,6 +21,9 @@ topicButton();
 // I need to get the Giphy API and generate the gifs
 var giphyApi = "YqyEfo8vTyVCZ1FdBJq4xdItgMQbAOMM";
 
+
+$("")
+
 var getGiphy = function() {
 
     var gifName = $(".generated-button").attr("data-name");

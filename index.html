@@ -13,12 +13,24 @@
 </head>
 
 <body>
-    <section>
+    <section class="container-fluid row">
         <!-- Div contains clickable buttons to generate gifs -->
-        <div id="generated-buttons"></div>
+        <div id="generated-buttons" class="col-md-12"></div>
 
-        <!--  -->
-
+        <!-- Gifs will generate here -->
+		<div class="col-md-9"></div>
+		
+		<!-- The input form -->
+		<div class="col-md-3">
+			<form class="" id="gif-form">
+			<label for="gif-input">Add a Hero!</label>
+			<input type="text" id="gif-input">
+			<br>
+			
+			<!-- Submit button -->
+			<input id="add-gif" type="submit" value="Add a Hero!">
+			</form>
+		</div>
     </section>
 
     <!-- jQuery CDN -->

@@ -13,12 +13,17 @@
 </head>
 
 <body>
+    <header class="container-fluid jumbotron text-center">
+        <h1>GifTastic (HERO EDITION)</h1>
+        <h3>Click the buttons below to generate gifs!</h3>
+        <h3>Use the search bar to add your own favorite heroes!</h3>
+    </header>
     <section class="container-fluid row">
         <!-- Div contains clickable buttons to generate gifs -->
         <div id="generated-buttons" class="col-md-12"></div>
 
         <!-- Gifs will generate here -->
-		<div class="col-md-9"></div>
+		<div class="col-md-9 row" id="gifLoader"></div>
 		
 		<!-- The input form -->
 		<div class="col-md-3">

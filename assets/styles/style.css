@@ -1,0 +1,11 @@
+.btn-primary{
+    margin: 5px;
+}
+
+body {
+    background-image: url('/assets/images/kirby__s_space_by_biotwist\ copy.png');
+}
+
+.jumbotron {
+    background-color: rgba(255,255,255,0.65);
+}

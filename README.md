@@ -6,6 +6,8 @@ The goal of the Giphy project was to make a jQuery .ajax() call to the Giphy API
 
 This was a project for the University of Arizona Coding Bootcamp.
 
+View Here: https://ggoldammer.github.io/giphy-ajax-project/
+
 ## Technologies Used
 
 - Hypertext Markup Language (HTML)
